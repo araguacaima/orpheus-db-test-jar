@@ -9,7 +9,7 @@ import javax.persistence.PersistenceUnit;
 @Entity
 @PersistenceUnit(unitName = "orpheus-db-test")
 @Versionable
-public class G extends B {
+public class G extends H {
 
     @Column
     private String testField1;

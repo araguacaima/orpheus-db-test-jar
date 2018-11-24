@@ -8,7 +8,7 @@ import javax.persistence.PersistenceUnit;
 
 @Entity
 @PersistenceUnit(unitName = "orpheus-db-test")
-public abstract class B extends I {
-    public B() {
+public abstract class H extends I {
+    public H() {
     }
 }
