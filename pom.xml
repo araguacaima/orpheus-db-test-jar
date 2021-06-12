@@ -6,7 +6,7 @@
 
     <groupId>com.araguacaima</groupId>
     <artifactId>orpheus-db-test-jar</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
     <description>Orpheus DB Test jar
@@ -48,7 +48,7 @@
 
     <properties>
         <slf4j.version>1.7.7</slf4j.version>
-        <com.araguacaima-orpheus-db>1.0.1-SNAPSHOT</com.araguacaima-orpheus-db>
+        <com.araguacaima-orpheus-db>1.0.2</com.araguacaima-orpheus-db>
 
         <!-- maven plugins -->
         <minimum-maven-version>3.1</minimum-maven-version>
@@ -57,13 +57,12 @@
         <org.apache.maven.plugins-maven-source-plugin>3.0.1</org.apache.maven.plugins-maven-source-plugin>
         <org.apache.maven.plugins-maven-javadoc-plugin>3.0.0-M1</org.apache.maven.plugins-maven-javadoc-plugin>
         <org.apache.maven.plugins-maven-compiler-plugin>3.6.2</org.apache.maven.plugins-maven-compiler-plugin>
-        <org.apache.maven.plugins-maven-surefire-plugin>2.20</org.apache.maven.plugins-maven-surefire-plugin>
+        <org.apache.maven.plugins-maven-surefire-plugin>3.0.0-M4</org.apache.maven.plugins-maven-surefire-plugin>
         <org.apache.maven.plugins-maven-enforcer-plugin>3.0.0-M1</org.apache.maven.plugins-maven-enforcer-plugin>
         <org.apache.maven.plugin-maven-jar-plugin>3.0.2</org.apache.maven.plugin-maven-jar-plugin>
         <org.apache.maven.plugin-maven-dependency-plugin>3.0.1</org.apache.maven.plugin-maven-dependency-plugin>
         <org.codehaus.mojo-aspectj-maven-plugin>1.8</org.codehaus.mojo-aspectj-maven-plugin>
         <org.apache.maven.plugins-maven-jar-plugin>3.0.2</org.apache.maven.plugins-maven-jar-plugin>
-        <org.codehaus.mojo-aspectj-maven-plugin>1.11</org.codehaus.mojo-aspectj-maven-plugin>
         <maven.skip.tests>true</maven.skip.tests>
         <maven.skipTests>true</maven.skipTests>
 
@@ -97,6 +96,11 @@
             <groupId>com.araguacaima</groupId>
             <artifactId>orpheus-db</artifactId>
             <version>${com.araguacaima-orpheus-db}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.1.8.RELEASE</version>
         </dependency>
 
     </dependencies>
