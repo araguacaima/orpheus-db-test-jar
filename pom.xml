@@ -30,9 +30,10 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/araguacaima/orpheus-db-test-jar.git</connection>
-        <developerConnection>scm:git:ssh://github.com:araguacaima/orpheus-db-test-jar.git</developerConnection>
-        <url>https://github.com/araguacaima/orpheus-db-test-jar/tree/master</url>
+        <connection>scm:git:https://github.com/araguacaima/orpheus-db-test-jar</connection>
+        <developerConnection>scm:git:https://github.com/araguacaima/orpheus-db-test-jar</developerConnection>
+        <url>scm:git:https://github.com/araguacaima/orpheus-db-test-jar</url>
+        <tag>HEAD</tag>
     </scm>
 
     <distributionManagement>
